@@ -104,8 +104,9 @@ class MovieDB::CLI
         end
         
       else
-      puts "Invalid Response. Please try again or type 'exit' to close the program."
-      input = gets.strip.downcase
+        puts "Invalid Response. Please try again or type 'exit' to close the program."
+        input = gets.strip.downcase
+      end
     end
     close
   end
